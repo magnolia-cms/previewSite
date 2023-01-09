@@ -1,0 +1,346 @@
+site:
+  title: "6.3 Preview Site - Magnolia Documentation"
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://docs.magnolia-cms.com/
+  start_page: product-docs:ROOT:index.adoc
+  robots: |
+    User-agent: *
+    Disallow: /saas/
+    Disallow: /saas-cli/
+
+git:
+  fetch_concurrency: 1
+
+content:
+  sources:
+  - url: .
+    start_path: home
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
+    branches: ['dev/6.3']
+
+urls:
+  redirect_facility: static
+  # html_extension_style: indexify
+
+ui:
+  bundle:
+    url: https://github.com/magnolia-cms/docs-site-ui/files/10360714/ui-bundle.zip
+    snapshot: true
+  supplemental_files:
+  - path: .nojekyll
+  - path: ui.yml
+    contents: "static_files: [ .nojekyll ]"
+
+# output:
+#   dir: ./public
+
+# Global asciidoc attributes here
+asciidoc:
+  attributes:
+    container-image-verified-tomcat: 9.0-jre11-temurin
+    default-timeout: '30'
+    rn-updated-text: This page was updated post-release to ensure all development was captured.
+    jira: https://jira.magnolia-cms.com/browse/
+    jira-cl: https://jira.magnolia-cms.com/issues/?filter=
+    magnolia-latest-version: '6.23'
+    magnolia-major-version: 6.3
+    jackrabbit-latest-version: 2.20.7
+    jackrabbit-major-version: '2.20'
+    derby-latest-version: '10.14.2.0'
+    dam-version: 3.0.19
+    norsu: contentDatasource
+    norsu-name-abbrev: CDS
+    heavy-check-mark: '&check;'
+    definition-decoration-short-descriptor: Definition decoration is a mechanism that allows you to change the properties and subdefinitions of an existing definition item.
+    sudo-cli-note: Depending on your permissions and the Node.js installation location, you may have to execute the above command with root permissions. On Linux or OS-X, to run this command as root, use the following...
+    latest-61-version: 6.1.8
+    latest-57-version: 5.7.26
+    docs-trait-tutorial-version: 1.3
+    magnolia-dam-imaging-version: 3.0.19
+    magnolia-imaging-support-version: 3.5.6
+    magnolia-site-version: 1.4.4
+    magnolia-templating-essentials-imaging-version: 2.0.3
+    magnolia-module-imaging-version: 3.5.6
+    magnolia-module-imagingtools-version: 3.2.8
+    magnolia-rest-integration-version: 2.2.15
+    solr-module-version: 6.1.2
+    save: Don't forget to save your changes.
+    feedback: https://jira.magnolia-cms.com/secure/CreateIssueDetails!init.jspa?pid=10190&issuetype=1&summary=Doc%20Site%20Feedback[Create a Jira^]
+    infoMagnoliaAwsPasswordManager-version: 1.0.4
+    infoMagnoliaMavenArchetypes-magnoliaArchetypesParent-version: 1.3
+    infoMagnolia-magnoliaCategorization-version: 2.9.1
+    infoMagnolia-magnoliaLDAP-version: 1.10.3
+    infoMagnolia-magnoliaModuleBackup-version: 2.4.4
+    infoMagnolia-magnoliaModuleCas-version: 1.3.2
+    infoMagnolia-magnoliaModuleContentDependencies-version: 2.0.3
+    infoMagnolia-magnoliaModuleExchangeTransactional-version: 2.5
+    infoMagnolia-magnoliaModuleJavascriptModels-version: 1.2
+    infoMagnolia-magnoliaModuleMail-version: 5.5.15
+    infoMagnolia-magnoliaModuleObservation-version: 2.2
+    infoMagnolia-magnoliaModuleRssAggregator-version: 2.6.5
+    infoMagnolia-magnoliaModuleScheduler-version: 2.3.6
+    infoMagnolia-magnoliaModuleWebsphere-version: 1.5
+    infoMagnolia-magnoliaSiteLocking-version: 3.1.2
+    infoMagnoliaAbout-magnoliaAboutApp-version: 6.2.19
+    infoMagnoliaAdmincentral-magnoliaAdmincentral-version: 6.2.25
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCache-version: 2.3.4
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCacheApp-version: 2.3.4
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCacheDPC-version: 2.3.4
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCachePersonalization-version: 2.3.4
+    infoMagnoliaAiImage-magnoliaImageRecognition-version: 1.2.5
+    infoMagnoliaAiText-magnoliaTextClassification-version: 1.1.6
+    infoMagnoliaAnalytics-magnoliaAnalytics-version: 1.2.2
+    infoMagnoliaBlock-magnoliaBlockTemplating: 2.1.2
+    infoMagnoliaBlossom-magnoliaModuleBlossom-version: '3.6.0'
+    infoMagnoliaCache-magnoliaCacheApp-version: 5.9.4
+    infoMagnoliaCache-magnoliaCacheBrowserApp-version: 5.9.4
+    infoMagnoliaCache-magnoliaCacheCore-version: 5.9.4
+    infoMagnoliaCache-magnoliaCacheEhcache-version: 5.9.4
+    infoMagnoliaCache-magnoliaCacheMemcached-version: 5.9.4
+    infoMagnoliaCampaign-magnoliaCampaignPublisher-version: '2.0'
+    infoMagnoliaContacts-magnoliaContacts-version: 1.8.4
+    infoMagnoliaContent-magnoliaContentImporter-version: 1.0.4
+    infoMagnoliaContenttags-magnoliaContentTagsCore-version: 2.0.4
+    infoMagnoliaContenttags-magnoliaContentTagsUI-version: 2.0.4
+    infoMagnoliaCore-magnoliaConfiguration-version: 6.2.27
+    infoMagnoliaCore-magnoliaVirtualUri-version: 6.2.27
+    infoMagnoliaDam-magnoliaDamCore-version: 3.0.19
+    infoMagnoliaDam-magnoliaDamJcr-version: 3.0.19
+    infoMagnoliaDam-magnoliaDamPreview-version: 3.0.19
+    infoMagnoliaDam-version: 3.0.19
+    infoMagnoliaDefinitions-magnoliaDefinitionsApp-version: 2.1.3
+    infoMagnoliaDevdect-magnoliaModuleDeviceDetection-version: 1.1
+    infoMagnoliaDiff-magnoliaDiff-version: 2.2.3
+    infoMagnoliaDocumentation-fsBrowserApp-version: 1.3
+    infoMagnoliaEcommerce-magnoliaEcommerce-version: 1.3.3
+    infoMagnoliaEditor-magnoliaContentEditor-version: 2.1.3
+    infoMagnoliaEditor-magnoliaContentEditor-version-5ui: 1.3.11
+    infoMagnoliaExternalDam-magnoliaExternalDam-version: 1.1.3
+    infoMagnoliaForm-magnoliaForm-version: 2.7.7
+    infoMagnoliaGraphql-magnoliaGraphqlParent-version: 1.1.0
+    infoMagnoliaGroovy-magnoliaGroovy-version: 3.0.3
+    infoMagnoliaGroovy-magnoliaGroovyCompatibility-version: 2.8.2
+    infoMagnoliaImaging-magnoliaImaging-version: 3.5.6
+    infoMagnoliaJCRtools-magnoliaJCRtools-version: 1.3
+    infoMagnoliaLiveCopy-magnoliaLiveCopy-version: 3.2.10
+    infoMagnoliaLog-magnoliaLogTools-version: 1.1.2
+    infoMagnoliaMarketingAutomation-magnoliaMarketingAutomation-version: 1.0.3
+    infoMagnoliaMarketingTags-magnoliaMarketingTags-version: 1.4.4
+    infoMagnoliaMessages-magnoliaMessagesApp-version: 6.2.18
+    infoMagnoliaMultisite-magnoliaModuleMultisite-version: 2.1.4
+    infoMagnoliaPUR-magnoliaModulePublicUserRegistration-version: 2.7.6
+    infoMagnoliaPages-magnoliaPagesParent-version: 6.2.24
+    infoMagnoliaPasswordManager-magnoliaModulePasswordManager-version: 1.2.5
+    infoMagnoliaPeriscope-magnoliaPeriscopeCore-version: 1.2.7
+    infoMagnoliaPersonalization-magnoliaPersonalizationBlossom-version: 1.8.1
+    infoMagnoliaPersonalization-magnoliaPersonalizationBlossomComp-version: 2.1.3
+    infoMagnoliaPersonalization-magnoliaPersonalizationCore-version: 2.1.7
+    infoMagnoliaPrivacy-magnoliaPrivacyCookieManager-version: '2.0'
+    infoMagnoliaPublishing-magnoliaPublishingCore-version: 1.3.6
+    infoMagnoliaPublishing-magnoliaPublishingTransactionalCore-version: 1.2.4
+    infoMagnoliaResources-magnoliaResourcesApp-version: 3.0.8
+    infoMagnoliaRest-magnoliaRestServices-version: 2.2.15
+    infoMagnoliaRestClient-magnoliaRestClient-version: 2.0.4
+    infoMagnoliaRestClient-magnoliaRestClientUI-version: 1.0.5
+    infoMagnoliaSecurity-magnoliaSecurityApp-version: 6.2.18
+    infoMagnoliaSeo-magnoliaSiteimprove-version: 1.2
+    infoMagnoliaSite-magnoliaSiteApp-version: 1.4.4
+    infoMagnoliaSitemesh-magnoliaModuleSitemesh-version: 1.2
+    infoMagnoliaSolr-magnoliaContentIndexer-version: 6.1.2
+    infoMagnoliaSso-magnoliaSso-version: '3.0.0'
+    infoMagnoliaSynchronization-magnoliaSynchronization-version: 2.0.1
+    infoMagnoliaSynchronization-magnoliaSynchronizationRest-version: 2.0.1
+    infoMagnoliaTask-magnoliaTasksParent: 6.2.21
+    infoMagnoliaTemplating-magnoliaTemplatingKit-version: 2.0.3
+    infoMagnoliaTools-magnoliaTools-version: 1.9.3
+    infoMagnoliaTranslation-magnoliaContentTranslation-version: 2.5.9
+    infoMagnoliaTranslation-magnoliaContentTranslationPagesIntegrationApp-version: 2.5.9
+    infoMagnoliaTypes-magnoliaContentTypes-version: 1.2
+    infoMagnoliaUi-magnoliaUiProject-version: 6.2.27
+    infoMagnoliaUi-magnoliaUiMediaEditor-version: 6.2.27
+    infoMagnoliaWebhooks-magnoliaWebhooksParent-version: '1.0.1'
+    infoMagnoliaWorkflow-magnoliaModuleWorkflow-version: 6.0.8
+    infoMagnoliaabtesting-magnoliaabtesting-version: 1.0.1
+    infoMagnoliaTemplating-magnoliaJsonfn-version: 1.0.9
+    infoMagnoliaAbout-magnoliaAboutApp-bundled: 'Yes'
+    infoMagnoliaAdmincentral-magnoliaAdmincentral-bundled: 'Yes'
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCache-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleBackup-bundled: 'Yes'
+    infoMagnoliaBlossom-magnoliaModuleBlossom-bundled: 'Yes'
+    infoMagnoliaCache-magnoliaCacheCore-bundled: 'Yes'
+    infoMagnoliaCampaign-magnoliaCampaignPublisher-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleCas-bundled: 'Yes'
+    infoMagnolia-magnoliaCategorization-bundled: 'Yes'
+    infoMagnoliaCore-magnoliaConfiguration-bundled: 'Yes'
+    infoMagnoliaContacts-magnoliaContacts-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleContentDependencies-bundled: 'Yes'
+    infoMagnoliaEditor-magnoliaContentEditor-bundled: 'Yes'
+    infoMagnoliaContent-magnoliaContentImporter-bundled: 'Yes'
+    infoMagnoliaContenttags-magnoliaContentTagsCore-bundled: 'Yes'
+    infoMagnoliaTranslation-magnoliaContentTranslationPagesIntegrationApp-bundled: 'Yes'
+    infoMagnoliaTypes-magnoliaContentTypes-bundled: 'Yes'
+    infoMagnoliaDefinitions-magnoliaDefinitionsApp-bundled: 'Yes'
+    infoMagnoliaDevdect-magnoliaModuleDeviceDetection-bundled: 'Yes'
+    infoMagnoliaDiff-magnoliaDiff-bundled: 'Yes'
+    infoMagnoliaDam-bundled: 'Yes'
+    infoMagnoliaForm-magnoliaForm-bundled: 'Yes'
+    infoMagnoliaGraphql-magnoliaGraphqlParent-bundled: 'Yes'
+    infoMagnoliaGroovy-magnoliaGroovy-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleWebsphere-bundled: 'Yes'
+    infoMagnoliaAiImage-magnoliaImageRecognition-bundled: 'Yes'
+    infoMagnoliaImaging-magnoliaImaging-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleJavascriptModels-bundled: 'Yes'
+    infoMagnoliaJCRtools-magnoliaJCRtools-bundled: 'Yes'
+    infoMagnolia-magnoliaLDAP-bundled: 'Yes'
+    infoMagnoliaLog-magnoliaLogTools-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleMail-bundled: 'Yes'
+    infoMagnoliaMarketingTags-magnoliaMarketingTags-bundled: 'Yes'
+    infoMagnoliaMessages-magnoliaMessagesApp-bundled: 'Yes'
+    infoMagnoliaTemplating-magnoliaTemplatingKit-bundled: 'Yes'
+    infoMagnoliaTemplating-MTE-bundled: 'Yes'
+    infoMagnoliaMultisite-magnoliaModuleMultisite-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleObservation-bundled: 'Yes'
+    infoMagnoliaPages-magnoliaPagesParent-bundled: 'Yes'
+    infoMagnoliaPasswordManager-magnoliaModulePasswordManager-bundled: 'Yes'
+    infoMagnoliaPeriscope-magnoliaPeriscopeCore-bundled: 'Yes'
+    infoMagnoliaPersonalization-magnoliaPersonalizationCore-bundled: 'Yes'
+    infoMagnoliaPrivacy-magnoliaPrivacyCookieManager-bundled: 'Yes'
+    infoMagnoliaPUR-magnoliaModulePublicUserRegistration-bundled: 'Yes'
+    infoMagnoliaPublishing-magnoliaPublishingCore-bundled: 'Yes'
+    infoMagnoliaPublishing-magnoliaPublishingTransactionalCore-bundled: 'Yes'
+    infoMagnoliaResources-magnoliaResourcesApp-bundled: 'Yes'
+    infoMagnoliaRestClient-magnoliaRestClient-bundled: 'Yes'
+    infoMagnoliaRest-magnoliaRestServices-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleRssAggregator-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleScheduler-bundled: 'Yes'
+    infoMagnolia-magnoliaModuleSecurity-App--bundled: 'Yes'
+    infoMagnoliaSite-magnoliaSiteApp-bundled: 'Yes'
+    infoMagnolia-magnoliaSiteLocking-bundled: 'Yes'
+    infoMagnoliaSolr-magnoliaContentIndexer-bundled: 'Yes'
+    infoMagnoliaSso-magnoliaSso-bundled: 'No'
+    infoMagnoliaSynchronization-magnoliaSynchronization-bundled: 'Yes'
+    infoMagnoliaTask-magnoliaTasksParent-bundled: 'Yes'
+    infoMagnoliaAiText-magnoliaTextClassification-bundled: 'Yes'
+    infoMagnoliaTools-magnoliaTools-bundled: 'Yes'
+    infoMagnoliaRestClient-magnoliaRestClientUI-bundled: 'Yes'
+    infoMagnoliaUi-magnoliaUiProject-bundled: 'Yes'
+    infoMagnoliaUi-magnoliaUiMediaEditor-bundled: 'Yes'
+    infoMagnoliaCore-magnoliaVirtualUri-bundled: 'Yes'
+    infoMagnoliaWebhooks-magnoliaWebhooksParent-bundled: 'Yes'
+    infoMagnoliaWorkflow-magnoliaModuleWorkflow-bundled: 'Yes'
+    infoMagnoliaAnalytics-magnoliaAnalytics-bundled: 'No'
+    infoMagnoliaEcommerce-magnoliaEcommerce-bundled: 'No'
+    infoMagnoliaExternalDam-magnoliaExternalDam-bundled: 'No'
+    infoMagnoliaMarketingAutomation-magnoliaMarketingAutomation-bundled: 'No'
+    infoMagnoliaSeo-magnoliaSiteimprove-bundled: 'No'
+    infoMagnoliaabtesting-magnoliaabtesting-bundled: 'No'
+    infoMagnoliaLiveCopy-magnoliaLiveCopy-bundled: 'No'
+    infoMagnoliaAbout-magnoliaAboutApp-onSpaHeadless: 'n/a'
+    infoMagnoliaAdmincentral-magnoliaAdmincentral-onSpaHeadless: 'n/a'
+    infoMagnoliaAdvancedCache-magnoliaAdvancedCache-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleBackup-onSpaHeadless: 'n/a'
+    infoMagnoliaBlossom-magnoliaModuleBlossom-onSpaHeadless: 'n/a'
+    infoMagnoliaCache-magnoliaCacheCore-onSpaHeadless: 'n/a'
+    infoMagnoliaCampaign-magnoliaCampaignPublisher-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleCas-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaCategorization-onSpaHeadless: 'n/a'
+    infoMagnoliaCore-magnoliaConfiguration-onSpaHeadless: 'n/a'
+    infoMagnoliaContacts-magnoliaContacts-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleContentDependencies-onSpaHeadless: 'n/a'
+    infoMagnoliaEditor-magnoliaContentEditor-onSpaHeadless: 'n/a'
+    infoMagnoliaContent-magnoliaContentImporter-onSpaHeadless: 'n/a'
+    infoMagnoliaContenttags-magnoliaContentTagsCore-onSpaHeadless: 'n/a'
+    infoMagnoliaTranslation-magnoliaContentTranslationPagesIntegrationApp-onSpaHeadless: 'n/a'
+    infoMagnoliaTypes-magnoliaContentTypes-onSpaHeadless: 'n/a'
+    infoMagnoliaDefinitions-magnoliaDefinitionsApp-onSpaHeadless: 'n/a'
+    infoMagnoliaDevdect-magnoliaModuleDeviceDetection-onSpaHeadless: 'n/a'
+    infoMagnoliaDiff-magnoliaDiff-onSpaHeadless: 'No'
+    infoMagnoliaDam-onSpaHeadless: 'n/a'
+    infoMagnoliaForm-magnoliaForm-onSpaHeadless: 'No'
+    infoMagnoliaGraphql-magnoliaGraphqlParent-onSpaHeadless: 'n/a'
+    infoMagnoliaGroovy-magnoliaGroovy-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleWebsphere-onSpaHeadless: 'n/a'
+    infoMagnoliaAiImage-magnoliaImageRecognition-onSpaHeadless: 'n/a'
+    infoMagnoliaImaging-magnoliaImaging-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleJavascriptModels-onSpaHeadless: 'No'
+    infoMagnoliaJCRtools-magnoliaJCRtools-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaLDAP-onSpaHeadless: 'n/a'
+    infoMagnoliaLog-magnoliaLogTools-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleMail-onSpaHeadless: 'n/a'
+    infoMagnoliaMarketingTags-magnoliaMarketingTags-onSpaHeadless: 'Yes'
+    infoMagnoliaMessages-magnoliaMessagesApp-onSpaHeadless: 'n/a'
+    infoMagnoliaTemplating-magnoliaTemplatingKit-onSpaHeadless: 'No'
+    infoMagnoliaTemplating-MTE-onSpaHeadless: 'n/a'
+    infoMagnoliaMultisite-magnoliaModuleMultisite-onSpaHeadless: 'Yes'
+    infoMagnolia-magnoliaModuleObservation-onSpaHeadless: 'n/a'
+    infoMagnoliaPages-magnoliaPagesParent-onSpaHeadless: 'Yes'
+    infoMagnoliaPasswordManager-magnoliaModulePasswordManager-onSpaHeadless: 'n/a'
+    infoMagnoliaPeriscope-magnoliaPeriscopeCore-onSpaHeadless: 'n/a'
+    infoMagnoliaPersonalization-magnoliaPersonalizationCore-onSpaHeadless: 'Yes'
+    infoMagnoliaPrivacy-magnoliaPrivacyCookieManager-onSpaHeadless: 'n/a'
+    infoMagnoliaPUR-magnoliaModulePublicUserRegistration-onSpaHeadless: 'No'
+    infoMagnoliaPublishing-magnoliaPublishingCore-onSpaHeadless: 'n/a'
+    infoMagnoliaPublishing-magnoliaPublishingTransactionalCore-onSpaHeadless: 'n/a'
+    infoMagnoliaResources-magnoliaResourcesApp-onSpaHeadless: 'n/a'
+    infoMagnoliaRestClient-magnoliaRestClient-onSpaHeadless: 'n/a'
+    infoMagnoliaRest-magnoliaRestServices-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleRssAggregator-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleScheduler-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaModuleSecurity-App--onSpaHeadless: 'n/a'
+    infoMagnoliaSite-magnoliaSiteApp-onSpaHeadless: 'n/a'
+    infoMagnolia-magnoliaSiteLocking-onSpaHeadless: 'n/a'
+    infoMagnoliaSolr-magnoliaContentIndexer-onSpaHeadless: 'n/a'
+    infoMagnoliaSso-magnoliaSso-onSpaHeadless: 'n/a'
+    infoMagnoliaSynchronization-magnoliaSynchronization-onSpaHeadless: 'n/a'
+    infoMagnoliaTask-magnoliaTasksParent-onSpaHeadless: 'n/a'
+    infoMagnoliaAiText-magnoliaTextClassification-onSpaHeadless: 'n/a'
+    infoMagnoliaTools-magnoliaTools-onSpaHeadless: 'n/a'
+    infoMagnoliaRestClient-magnoliaRestClientUI-onSpaHeadless: 'n/a'
+    infoMagnoliaUi-magnoliaUiProject-onSpaHeadless: 'n/a'
+    infoMagnoliaUi-magnoliaUiMediaEditor-onSpaHeadless: 'n/a'
+    infoMagnoliaCore-magnoliaVirtualUri-onSpaHeadless: 'n/a'
+    infoMagnoliaWebhooks-magnoliaWebhooksParent-onSpaHeadless: 'n/a'
+    infoMagnoliaWorkflow-magnoliaModuleWorkflow-onSpaHeadless: 'n/a'
+    infoMagnoliaAnalytics-magnoliaAnalytics-onSpaHeadless: 'n/a'
+    infoMagnoliaEcommerce-magnoliaEcommerce-onSpaHeadless: 'Yes'
+    infoMagnoliaExternalDam-magnoliaExternalDam-onSpaHeadless: 'n/a'
+    infoMagnoliaMarketingAutomation-magnoliaMarketingAutomation-onSpaHeadless: 'Yes'
+    infoMagnoliaSeo-magnoliaSiteimprove-onSpaHeadless: 'n/a'
+    infoMagnoliaabtesting-magnoliaabtesting-onSpaHeadless: 'No'
+    infoMagnoliaLiveCopy-magnoliaLiveCopy-onSpaHeadless: 'Yes'
+    tabs: tabs
+    check-mark: '&#x2714;'
+    magnolia-help-desk: HELPDESK
+    magnolia-url: www.magnolia-cms.com
+    submit-idea-url: http://mgnl.io/submit-idea
+    experimental:
+    page-pagination: true
+    bookshelf-app-git: https://git.magnolia-cms.com/scm/documentation/bookshelf.git
+    min-java-version: 8
+    example-caption: false
+    fields-dir: Templating/Dialog-definition/Field-definition/List-of-fields/
+    61-eol: 'March 31, 2021'
+    57-eol: 'March 31, 2023'
+    roadmap: http://mgnl.io/roadmap
+    magnolia-ui-jira-issues: https://jira.magnolia-cms.com/projects/MGNLUI/issues/MGNLUI-3872?filter=allopenissues[MGNLUI]
+    mla: link:https://www.magnolia-cms.com/mla.html[MLA, window="_blank"]
+    gpl: link:http://www.gnu.org/licenses/gpl-3.0.html[GPL, window="_blank"]
+    nexus-core: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/magnolia-core
+    nexus-ui-api: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/ui/magnolia-ui-api
+    nexus-ui-framework: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/ui/magnolia-ui-framework
+    nexus-ui-framework-jcr: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/ui/magnolia-ui-framework-jcr
+    nexus-ui-framework-compatibility: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/ui/magnolia-ui-framework-compatibility
+    nexus-templating: https://nexus.magnolia-cms.com/service/local/repositories/magnolia.public.releases/archive/info/magnolia/magnolia-templating
+    i1: '&nbsp;&nbsp;&nbsp;&nbsp;'
+    i2: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    i3: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    i4: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    i5: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    i6: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    source-linenums-option:
+  extensions:
+  - ./lib/tabs-block.js
+  - ./lib/javadoc.js
+  # - ./lib/module-version.js
+  - asciidoctor-kroki

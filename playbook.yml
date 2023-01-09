@@ -13,9 +13,6 @@ git:
 
 content:
   sources:
-  - url: .
-    start_path: home
-    branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['dev/6.3']
 

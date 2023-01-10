@@ -15,6 +15,196 @@ content:
   sources:
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['dev/6.3']
+  - url: https://git.magnolia-cms.com/scm/documentation/free-trials-documentation.git
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/documentation/headless-docs.git
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/documentation/cloud-legacy.git
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/cloud/magnolia-cloud.git
+    branches: [master]
+    start_path: docs
+  - url: https://git.magnolia-cms.com/scm/cloud/mgnlctl.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/documentation/cli-docs.git
+    branches: ['v4','v3','v2']
+  # - url: https://gitlab.magnolia-platform.com/documentation/major-tom-documentation.git
+  #   start_path: docs
+  #   branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/workflow-extended.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/enterprise/magnolia-sso.git
+    start_path: docs
+    branches: ['master','release/2.0']
+  # - url: https://git.magnolia-cms.com/scm/ADDON/live-copy.git
+  #   start_path: docs
+  #   branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/customer-journey.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/elastic-search-index-feeder.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/task-email-notifications.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/netlify-integration.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/wordai.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/uri-mapping-app.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/algolia-search-index-feeder.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/adyen-connector.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/backend-live-parent.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/shop.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/form.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/publication-task-config.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/celum-dam-connector.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/content-translation-support-ext.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/six-eye-workflow.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/eight-eye-workflow.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/modules/javascript-models.git
+    start_path: docs
+    branches: ['release/2.0','release/1.2']
+  - url: https://git.magnolia-cms.com/scm/services/freeze.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/linkmapper.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/multi-assets-upload.git
+    start_path: docs
+    branches: [main]
+  - url: https://git.magnolia-cms.com/scm/services/config-injection.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/content-type-models.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/migration-tools.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/magnolia-rabbitmq-parent.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/ecommerce-catalogsync.git
+    start_path: docs
+    branches: [main]
+  - url: https://git.magnolia-cms.com/scm/services/hybrid-assets.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/slack-integration.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/ui-css-custom.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/search-engine-optimization.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/cdn-helper.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/backup-extended.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/frontify-dam-connector.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/url-translation.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/dam-focal.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/periscope-control.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/image-placement.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/biocryptology-connector-module.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/content-locking.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/versioncleaner.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/microsoft-dam-parent.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/magnolia-throttling-filter.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/services/recommender.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/webhooks.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/bitbucket-integration.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/wechat-connector.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/fullstory-integration.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/commenting.git
+    start_paths:
+      - docs
+      - openapi
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/ui-framework-javascript.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/spa-rendering-extended.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/magnolia-ecommerce-algolia-connector.git
+    start_path: docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/campaign.git
+    start_paths:
+      - campaign-manager/docs
+      - campaign-importer/docs
+  - url: https://git.magnolia-cms.com/scm/incubator/cloudinary-parent.git
+    start_paths:
+      - docs
+      - cloudinary-dam-connector/docs
+      - cloudinary-media-widget-integration/docs
+    branches: [master]
+  - url: https://git.magnolia-cms.com/scm/incubator/incubator-module-docs.git
+    branches: [master]
 
 urls:
   redirect_facility: static

@@ -92,6 +92,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/modules/javascript-models.git
     start_path: docs
     branches: ['release/2.0','release/1.2']
+  - url: https://git.magnolia-cms.com/scm/modules/rest.git
+    start_path: docs
+    branches: [master]  
   - url: https://git.magnolia-cms.com/scm/services/freeze.git
     start_path: docs
     branches: [master]

@@ -43,7 +43,7 @@ content:
   - url: https://git.magnolia-cms.com/scm/incubator/customer-journey.git
     start_path: docs
     branches: [master]
-  - url: https://git.magnolia-cms.com/scm/incubator/elastic-search-index-feeder.git
+  - url: https://git.magnolia-cms.com/scm/incubator/magnolia-search-index-feeder.git
     start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/services/task-email-notifications.git
@@ -56,9 +56,6 @@ content:
     start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/uri-mapping-app.git
-    start_path: docs
-    branches: [master]
-  - url: https://git.magnolia-cms.com/scm/incubator/algolia-search-index-feeder.git
     start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/adyen-connector.git

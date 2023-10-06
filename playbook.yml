@@ -193,9 +193,8 @@ content:
     start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/campaign.git
-    start_paths:
-      - campaign-manager/docs
-      - campaign-importer/docs
+    start_path: docs
+    branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/cloudinary-parent.git
     start_paths:
       - docs

@@ -196,10 +196,7 @@ content:
     start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/cloudinary-parent.git
-    start_paths:
-      - docs
-      - cloudinary-dam-connector/docs
-      - cloudinary-media-widget-integration/docs
+    start_path: docs
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/incubator/incubator-module-docs.git
     branches: [master]

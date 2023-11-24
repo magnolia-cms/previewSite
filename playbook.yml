@@ -1,8 +1,8 @@
 site:
   title: "6.3 Preview Site - Magnolia Documentation"
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://docs.magnolia-cms.com/
-  start_page: product-docs:ROOT:index.adoc
+  url: https://preview-magnolia-63.netlify.app/
+  start_page: product-docs:ROOT:Magnolia-DXP-and-its-features.adoc
   robots: |
     User-agent: *
     Disallow: /saas/

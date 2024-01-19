@@ -15,6 +15,8 @@ content:
   sources:
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['master']
+  - url: https://git.magnolia-cms.com/scm/documentation/dummy-repo.git
+    branches: ['master']
   - url: https://git.magnolia-cms.com/scm/documentation/mx.git
     branches: ['master']
   # - url: https://git.magnolia-cms.com/scm/documentation/free-trials-documentation.git

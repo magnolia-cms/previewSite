@@ -173,6 +173,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/services/recommender.git
     start_path: docs
     branches: [documentation]
+  - url: https://git.magnolia-cms.com/scm/services/taskscleaner.git
+    start_path: docs
+    branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/bitbucket-integration.git
     start_path: docs
     branches: [documentation]

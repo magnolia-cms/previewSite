@@ -170,6 +170,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/incubator/magnolia-throttling-filter.git
     start_path: docs
     branches: [documentation]
+  - url: https://git.magnolia-cms.com/scm/services/healthcheck.git
+    start_path: docs
+    branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/services/recommender.git
     start_path: docs
     branches: [documentation]

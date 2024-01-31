@@ -173,12 +173,12 @@ content:
   - url: https://git.magnolia-cms.com/scm/services/recommender.git
     start_path: docs
     branches: [documentation]
-  - url: https://git.magnolia-cms.com/scm/incubator/webhooks.git
-    start_path: docs
-    branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/incubator/bitbucket-integration.git
     start_path: docs
     branches: [documentation]
+  - url: https://git.magnolia-cms.com/scm/incubator/rest-proxy.git
+    start_path: docs
+    branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/wechat-connector.git
     start_path: docs
     branches: [documentation]
@@ -193,6 +193,12 @@ content:
   - url: https://git.magnolia-cms.com/scm/incubator/ui-framework-javascript.git
     start_path: docs
     branches: [documentation]
+  - url: https://git.magnolia-cms.com/scm/incubator/hooks-api.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/enterprise/webhooks.git
+    start_path: docs
+    branches: ['master','release/1.0']
   - url: https://git.magnolia-cms.com/scm/incubator/spa-rendering-extended.git
     start_path: docs
     branches: [documentation]

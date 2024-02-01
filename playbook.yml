@@ -265,7 +265,7 @@ urls:
 
 ui:
   bundle:
-    url: https://github.com/magnolia-cms/docs-site-ui/files/14098930/ui-bundle.zip
+    url: https://github.com/magnolia-cms/docs-site-ui/files/14126355/ui-bundle.zip
     snapshot: true
   supplemental_files:
   - path: .nojekyll

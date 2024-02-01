@@ -205,10 +205,37 @@ content:
   - url: https://git.magnolia-cms.com/scm/enterprise/webhooks.git
     start_path: docs
     branches: ['master','release/1.0']
-  - url: https://git.magnolia-cms.com/scm/incubator/spa-rendering-extended.git
-    start_path: docs
-    branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/incubator/content-exporter.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/public-user-registration-db.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/openai-integrations.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/sso-login-extension.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/ADDON/ecommerce.git
+    start_path: docs
+    branches: ['release/1.3']
+  - url: https://git.magnolia-cms.com/scm/incubator/instrumentation.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/siteimprove.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/services/magnolia-elasticsearch-provider.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/mparticle-integration.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/customer-data-platform.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator-light-modules/dall-e.git
     start_path: docs
     branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/content-diff.git

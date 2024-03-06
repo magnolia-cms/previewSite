@@ -257,6 +257,8 @@ content:
     branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/incubator/incubator-module-docs.git
     branches: [master]
+  - url: https://github.com/magnolia-cms/dialog-fields-examples.git
+    branches: ['master','release/6.2']
 
 urls:
   redirect_facility: static

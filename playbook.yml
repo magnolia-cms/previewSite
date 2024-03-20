@@ -20,15 +20,11 @@ content:
     branches: ['master']
   - url: https://git.magnolia-cms.com/scm/documentation/mx.git
     branches: ['master']
-  # - url: https://git.magnolia-cms.com/scm/documentation/free-trials-documentation.git
-  #   branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/headless-docs.git
     branches: ['dev/6.3']
   - url: https://git.magnolia-cms.com/scm/documentation/magnolia-vercel-docs.git
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/cloud-legacy.git
-    branches: [master]
-  - url: https://git.magnolia-cms.com/scm/cloud/saas-docs.git
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/cloud/mgnlctl.git
     start_path: docs

@@ -257,6 +257,8 @@ content:
     branches: [master]
   - url: https://github.com/magnolia-cms/dialog-fields-examples.git
     branches: ['master','release/6.2']
+  - url: https://git.magnolia-cms.com/scm/documentation/hi-magnolia.git
+    branches: [master]
 
 urls:
   redirect_facility: static

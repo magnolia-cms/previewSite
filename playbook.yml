@@ -220,7 +220,7 @@ content:
     branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/ADDON/ecommerce.git
     start_path: docs
-    branches: ['release/1.3']
+    branches: ['docs/6.3']
   - url: https://git.magnolia-cms.com/scm/incubator/instrumentation.git
     start_path: docs
     branches: ['documentation']

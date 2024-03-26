@@ -2,7 +2,7 @@ site:
   title: "6.3 Preview Site - Magnolia Documentation"
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://preview-magnolia-63.netlify.app/
-  start_page: product-docs:ROOT:index.adoc
+  start_page: welcome:ROOT:index.adoc
   robots: |
     User-agent: *
     Disallow: /saas/
@@ -13,6 +13,9 @@ git:
 
 content:
   sources:
+  - url: .
+    start_path: home
+    branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['master']
   - url: https://git.magnolia-cms.com/scm/documentation/dummy-repo.git
@@ -266,7 +269,7 @@ urls:
 
 ui:
   bundle:
-    url: https://github.com/magnolia-cms/docs-site-ui/files/14651708/ui-bundle.zip
+    url: https://github.com/magnolia-cms/docs-site-ui/files/14760423/ui-bundle.zip
     snapshot: true
   supplemental_files:
   - path: .nojekyll

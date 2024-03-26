@@ -1,0 +1,50 @@
+= Magnolia CMS Documentation {magnolia-latest-version}
+:page-aliases: product-docs:HOME:{page-relative-src-path}
+:page-layout: home
+
+[.cards.cards-4.personas.conceal-title]
+== {empty}
+
+[.card]
+=== Welcome
+
+Get to know Magnolia.
+
+* xref:product-docs:ROOT:magnolia-dxp.adoc[]
+* xref:product-docs:ROOT:Getting-started-with-Magnolia/Demo.adoc[]
+* xref:product-docs:ROOT:Getting-started-with-Magnolia/Magnolia-project-overview.adoc[]
+* xref:paas:ROOT:index.adoc[Magnolia PaaS]
+* xref:headless:ROOT:index.adoc[]
+
+[.card]
+=== Developers
+
+Develop Magnolia projects using Java and Light Development.
+
+* xref:magnolia-cli:ROOT:index.adoc[Magnolia CLI]
+* xref:product-docs:ROOT:Developing/Light-development-in-Magnolia.adoc[Light development]
+* xref:product-docs:ROOT:Modules.adoc[Modules]
+* xref:product-docs:ROOT:Developing/Templating.adoc[]
+* xref:product-docs:ROOT:Developing/API.adoc[]
+
+[.card]
+=== Administrators
+
+Set up and deploy Magnolia as an administrator.
+
+* xref:product-docs:ROOT:Releases.adoc[]
+* xref:product-docs:ROOT:Administration/Certified-stack.adoc[]
+* xref:product-docs:ROOT:Getting-started-with-Magnolia/Installing-Magnolia.adoc[]
+* xref:product-docs:ROOT:Upgrading-to-Magnolia.adoc[]
+* xref:product-docs:ROOT:Administration/Security.adoc[]
+
+[.card]
+=== Authors
+
+Use Magnolia as an author.
+
+* xref:product-docs:ROOT:Authoring/Logging-in.adoc[Logging in]
+* xref:product-docs:ROOT:Authoring/Editing-pages.adoc[Editing pages]
+* xref:product-docs:ROOT:Authoring/Managing-pages.adoc[Managing pages]
+* xref:product-docs:ROOT:Authoring/Managing-assets.adoc[Managing assets]
+* xref:product-docs:ROOT:Authoring/Publishing.adoc[Publishing]

@@ -563,7 +563,7 @@ asciidoc:
     bookshelf-app-git: https://git.magnolia-cms.com/scm/documentation/bookshelf.git
     min-java-version: 8
     example-caption: false
-    fields-dir: Templating/Dialog-definition/Field-definition/List-of-fields/
+    fields-dir: /Developing/Templating/Dialog-definition/Field-definition/List-of-fields/
     61-eol: 'March 31, 2021'
     57-eol: 'March 31, 2023'
     roadmap: http://mgnl.io/roadmap

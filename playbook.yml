@@ -257,7 +257,7 @@ content:
     start_path: docs
     branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/incubator/incubator-module-docs.git
-    branches: [master]
+    branches: ['dev/6.3']
   - url: https://github.com/magnolia-cms/dialog-fields-examples.git
     branches: ['master','release/6.2']
   - url: https://git.magnolia-cms.com/scm/documentation/hi-magnolia.git

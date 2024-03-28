@@ -311,6 +311,58 @@ asciidoc:
     solr-module-version: 6.1.2
     save: Don't forget to save your changes.
     feedback: https://jira.magnolia-cms.com/secure/CreateIssueDetails!init.jspa?pid=10190&issuetype=1&summary=Doc%20Site%20Feedback[Create a Jira^]
+    # repo links and clone URLs; git denotes SSH clone, otherwise, a standard URL
+    repo-appTutorial: https://bitbucket.org/magnolia-cms/app-tutorial
+    repo-git-appTutorial: git@bitbucket.org:magnolia-cms/app-tutorial.git
+    repo-blockExamples: https://bitbucket.org/magnola-cms/block-examples
+    repo-git-blockExample: git@bitbucket.org/magnolia-cms/block-examples.git
+    repo-bookcase: https://bitbucket.org/magnolia-cms/bookcase
+    repo-git-bookcase: git@bitbucket.org:magnola-cms/bookcase.git
+    repo-bookshelf: https://bitbucket.org/magnola-cms/bookshelf
+    repo-git-bookshelf: git@bitbucket.org:magnola-cms/bookshelf.git
+    repo-cameraCollection: https://bitbucket.org/magnolia-cms/camera-collection
+    repo-git-cameraCollection: git@bitbucket.org/magnolia-cms/camera-collection.git
+    repo-componentInheritanceExamples: https://bitbucket.org/magnolia-cms/component-inheritance-examples
+    repo-git-componentInheritanceExamples: git@bitbucket.org/magnolia-cms/component-inheritance-examples.git
+    repo-contentAppClientsV2: https://bitbucket.org/magnolia-cms/content-app-clients-v2
+    repo-git-contentAppClientsV2: git@bitbucket.org/magnolia-cms/content-app-clients-v2.git
+    repo-cookieTraitExamples: https://bitbucket.org/magnolia-cms/cookie-trait-examples
+    repo-git-cookieTraitExamples: git@bitbucket.org/magnolia-cms/cookie-trait-examples.git
+    repo-cumulusTemplatesExamples: https://bitbucket.org/magnolia-cms/cumulus-templates-examples
+    repo-git-cumulusTemplatesExamples: git@bitbucket.org/magnolia-cms/cumulus-templates-examples.git
+    repo-customPagesAppBarebones: https://bitbucket.org/magnolia-cms/custom-pages-app-barebones
+    repo-git-customPagesAppBarebones: git@bitbucket.org/magnolia-cms/custom-pages-app-barebones.git
+    repo-demoRestP13n: https://bitbucket.org/magnolia-cms/demo-rest-p13n
+    repo-git-demoRestP13n: git@bitbucket.org/magnolia-cms/demo-rest-p13n.git
+    repo-demoRestServices: https://bitbucket.org/magnolia-cms/demo-rest-services
+    repo-git-demoRestServices: git@bitbucket.org/magnolia-cms/demo-rest-services.git
+    repo-documentationTraitTutorial: https://bitbucket.org/magnolia-cms/documentation-trait-tutorial
+    repo-git-documentationTraitTutorial: git@bitbucket.org/magnolia-cms/documentation-trait-tutorial.git
+    repo-fsBrowserApp: https://bitbucket.org/magnolia-cms/fs-browser-app
+    repo-git-fsBrowserApp: git@bitbucket.org/magnolia-cms/fs-browser-app.git
+    repo-groovyClasses: https://bitbucket.org/magnola-cms/groovy-classes
+    repo-git-groovyClasses: git@bitbucket.org/magnola-cms/groovy-classes.git
+    repo-groovyShellScripts: https://bitbucket.org/magnola-cms/groovy-shell-scripts
+    repo-git-groovyShellScripts: git@bitbucket.org/magnola-cms/groovy-shell-scripts.git
+    repo-helloMagnolia: https://bitbucket.org/magnolia-cms/hello-magnolia
+    repo-git-helloMagnolia: git@bitbucket.org/magnolia-cms/hello-magnolia.git
+    repo-hiMagnolia: https://bitbucket.org/magnolia-cms/hi-magnolia
+    repo-git-hiMagnolia: git@bitbucket.org/magnolia-cms/hi-magnolia.git
+    repo-myFirstWebsiteTutorial: https://bitbucket.org/magnolia-cms/my-first-website-tutorial
+    repo-git-myFirstWebsiteTutorial: git@bitbucket.org/magnolia-cms/my-first-website-tutorial.git
+    repo-myUiComponents: https://bitbucket.org/magnolia-cms/my-ui-components
+    repo-git-myUiComponents: git@bitbucket.org/magnolia-cms/my-ui-components.git
+    repo-repositoryConfigurationExamples: https://bitbucket.org/magnolia-cms/repository-configuration-examples
+    repo-git-repositoryConfigurationExamples: git@bitbucket.org/magnolia-cms/repository-configuration-examples.git
+    repo-restClientExamples: https://bitbucket.org/magnolia-cms/rest-client-examples
+    repo-git-restClientExamples: git@bitbucket.org/magnolia-cms/rest-client-examples.git
+    repo-usingContentTags: https://bitbucket.org/magnolia-cms/using-content-tags
+    repo-git-usingContentTags: git@bitbucket.org/magnolia-cms/using-content-tags.git
+    repo-webhookSsgDemo: https://bitbucket.org/magnolia-cms/webhook-ssg-demo 
+    repo-git-webhookSsgDemo: git@bitbucket.org/magnolia-cms/webhook-ssg-demo.git 
+    repo-travelDemo: https://bitbucket.org/magnolia-cms/travel-demo
+    repo-git-travelDemo: git@bitbucket.org:magnolia-cms/travel-demo.git
+    repo-git-travelDemo-branch: 'release/1.6'
     infoMagnoliaAwsPasswordManager-version: 1.0.4
     infoMagnoliaMavenArchetypes-magnoliaArchetypesParent-version: 1.3
     infoMagnolia-magnoliaCategorization-version: 2.9.1

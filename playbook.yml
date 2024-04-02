@@ -32,9 +32,6 @@ content:
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/cloud-legacy.git
     branches: [master]
-  - url: https://git.magnolia-cms.com/scm/cloud/mgnlctl.git
-    start_path: docs
-    branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/cli-docs.git
     branches: ['v4','v3','v2']
   - url: https://git.magnolia-cms.com/scm/documentation/paas-docs.git

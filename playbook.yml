@@ -26,8 +26,6 @@ content:
   - url: https://git.magnolia-cms.com/scm/documentation/dummy-repo.git
     start_path: docs
     branches: ['master']
-  - url: https://git.magnolia-cms.com/scm/documentation/mx.git
-    branches: ['master']
   - url: https://git.magnolia-cms.com/scm/documentation/headless-docs.git
     branches: ['dev/6.3']
   - url: https://git.magnolia-cms.com/scm/documentation/magnolia-vercel-docs.git

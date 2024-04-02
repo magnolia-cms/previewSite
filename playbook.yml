@@ -11,6 +11,11 @@ site:
 git:
   fetch_concurrency: 1
 
+# if there are numerous errors (related to asciidoctor on the build; feel free to comment out the entire runtime: section)
+runtime:
+ log:
+   failure_level: error
+
 content:
   sources:
   - url: .

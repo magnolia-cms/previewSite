@@ -10,7 +10,7 @@
 
 Get to know Magnolia.
 
-* xref:product-docs:ROOT:magnolia-dxp.adoc[]
+* xref:product-docs:ROOT:index.adoc[]
 * xref:product-docs:ROOT:Getting-started-with-Magnolia/Demo.adoc[]
 * xref:product-docs:ROOT:Getting-started-with-Magnolia/Magnolia-project-overview.adoc[]
 * xref:paas:ROOT:index.adoc[Magnolia PaaS]

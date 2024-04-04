@@ -81,6 +81,18 @@ content:
   - url: https://git.magnolia-cms.com/scm/incubator/celum-dam-connector.git
     start_path: docs
     branches: [documentation]
+  - url: https://git.magnolia-cms.com/scm/incubator/bot-protection.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/dotdigital-integration.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/two-factor-authentication.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/veeva-parent.git
+    start_path: docs
+    branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/services/content-translation-support-ext.git
     start_path: docs
     branches: [documentation]

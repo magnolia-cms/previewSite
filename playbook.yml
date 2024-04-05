@@ -42,6 +42,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/enterprise/magnolia-sso.git
     start_path: docs
     branches: ['master','release/2.0']
+  - url: https://git.magnolia-cms.com/scm/modules/content-types.git
+    start_path: docs
+    branches: [master] 
   - url: https://git.magnolia-cms.com/scm/ADDON/live-copy.git
     start_path: docs
     branches: [master]

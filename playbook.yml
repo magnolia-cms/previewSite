@@ -120,8 +120,8 @@ content:
   - url: https://git.magnolia-cms.com/scm/services/linkmapper.git
     start_path: docs
     branches: [documentation]
-  - url: https://git.magnolia-cms.com/scm/documentation/performance-guide.git
-    branches: [master]
+  # - url: https://git.magnolia-cms.com/scm/documentation/performance-guide.git
+  #   branches: [master]
   - url: https://git.magnolia-cms.com/scm/services/multi-assets-upload.git
     start_path: docs
     branches: [main]

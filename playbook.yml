@@ -45,6 +45,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/modules/content-types.git
     start_path: docs
     branches: [master] 
+  - url: https://git.magnolia-cms.com/scm/modules/site.git
+    start_path: docs
+    branches: [master] 
   - url: https://git.magnolia-cms.com/scm/ADDON/live-copy.git
     start_path: docs
     branches: [master]

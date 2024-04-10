@@ -223,6 +223,9 @@ content:
   - url: https://git.magnolia-cms.com/scm/enterprise/webhooks.git
     start_path: docs
     branches: ['master','release/1.0']
+  - url: https://git.magnolia-cms.com/scm/enterprise/multisite.git
+    start_path: docs
+    branches: ['master']
   - url: https://git.magnolia-cms.com/scm/incubator/content-exporter.git
     start_path: docs
     branches: ['documentation']
@@ -310,7 +313,7 @@ asciidoc:
     jira-cl: https://jira.magnolia-cms.com/issues/?filter=
     magnolia-latest-version: 6.2.44
     nextReleaseDate: 2024-03-28
-    magnolia-major-version: 6.2
+    magnolia-major-version: 6.3
     jackrabbit-latest-version: 2.20.13
     jackrabbit-major-version: '2.20'
     derby-latest-version: '10.14.2.0'

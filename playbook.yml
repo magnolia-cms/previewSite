@@ -20,7 +20,7 @@ content:
   sources:
   - url: .
     start_path: home
-    branches: [master]
+    branches: HEAD
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['master','preview/prod-check']
   - url: https://git.magnolia-cms.com/scm/documentation/dummy-repo.git

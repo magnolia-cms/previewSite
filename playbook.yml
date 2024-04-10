@@ -124,7 +124,7 @@ content:
     branches: [master]
   - url: https://git.magnolia-cms.com/scm/services/multi-assets-upload.git
     start_path: docs
-    branches: [main]
+    branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/services/config-injection.git
     start_path: docs
     branches: [documentation]
@@ -263,6 +263,9 @@ content:
     start_path: docs
     branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/languages-availability.git
+    start_path: docs
+    branches: ['documentation']
+  - url: https://git.magnolia-cms.com/scm/incubator/dam-jcr-fastly.git
     start_path: docs
     branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/linkmapper-shared-db.git

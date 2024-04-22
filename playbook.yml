@@ -334,6 +334,43 @@ asciidoc:
     saas-base-delivery-api-url: delivery.saas.magnolia-cloud.com
     saas-base-delivery-preview-api-url: delivery-preview.saas.magnolia-cloud.com
     feedback: https://jira.magnolia-cms.com/secure/CreateIssueDetails!init.jspa?pid=10190&issuetype=1&summary=Doc%20Site%20Feedback[Create a Jira^]
+    # extension module versions
+    extension_infoMagnoliaPayments-magnoliaAdyenConnector-version: '1.0'
+    extension_infoMagnoliaIndexFeeder-version: '1.0.1'
+    extension_infoMagnoliaIndexFeeder-algolia-version: '1.0.1'
+    extension_infoMagnoliaIndexFeeder-elasticSearch-version: '1.0.1'
+    extension_infoMagnoliaIndexFeeder-solr-version: '1.0.1'
+    extension_infoMagnoliaEcommerce-magnoliaEcommerceAlgoliaConnector-version: '1.0.2'
+    extension_infoMagnoliaCampaign-magnoliaCampaignManager-version: '3.1.14'
+    extension_infoMagnoliaCampaign-magnoliaCampaignImport-version: '3.1.14'
+    extension_infoMagnoliaCdn-magnoliaCdnHelper-version: '1.0.6'
+    extension_infoMagnoliaExternalDam-celumDamConnector-version: '1.0.5'
+    extension_infoMagnoliaExternalDam-magnoliaExternalDamCloudinary-version: '1.2.2'
+    extension_infoMagnoliaCommenting-magnoliaCommenting-version: '1.1.4'
+    extension_infoMagnoliaEcommerce-magnoliaEcommerce-version: '1.3.6'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-google-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-microsoft-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-translationsDotCom-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-atLanguageSolutions-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-deepl-version: '3.4.14'
+    extension_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-instantTranslation-version: '3.4.14'
+    extension_infoMagnoliaExternalDam-frontifyDamConnector-version: '1.0.2'
+    extension_infoMagnoliaUi-magnoliaUiFrameworkJavascript-version: '2.0.7'
+    extension_infoMagnoliaExternalDam-magnoliaExternalDamMicrosoft-version: '1.0'
+    extension_infoMagnoliaCdp-mparticleIntegration-version: '1.0'
+    extension_infoMagnoliaAi-magnoliaOpenaiAutomations-version: '1.1.3'
+    extension_infoMagnoliaCdp-magnoliaCustomerDataPlatformCommmon-version: '1.0'
+    extension_infoMagnoliaSeo-magnoliaSeo-version: '6.2.2'
+    extension_infoMagnoliaSeo-magnoliaSiteimprove-version: '1.2.1'
+    extension_infoMagnoliaSlack-magnoliaSlackIntegration-version: '1.2'
+    extension_infoMagnoliaTask-magnoliaTaskEmailNotifications-version: '6.2'
+    extension_infoMagnoliaWechat-magnoliaSsoConnector-version: '1.0'
+    # framework module versions
+    framework_infoMagnoliaEcommerce-magnoliaEcommerce-version: '1.3.6'
+    framework_infoMagnoliaTranslation-magnoliaContentTranslationSupportExt-version: '3.4.14'
+    framework_infoMagnoliaExternalDam-magnoliaExternalDam-version: '2.0.0'
+    framework_infoMagnoliaRestProxy-magnoliaRestProxy-version: '1.0'
     # repo links and clone URLs; git denotes SSH clone, otherwise, a standard URL
     repo-appTutorial: https://bitbucket.org/magnolia-cms/app-tutorial
     repo-git-appTutorial: git@bitbucket.org:magnolia-cms/app-tutorial.git

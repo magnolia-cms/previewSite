@@ -18,9 +18,8 @@ runtime:
 
 content:
   sources:
-  - url: .
-    start_path: home
-    branches: HEAD
+  - url: https://git.magnolia-cms.com/scm/documentation/docs-landing.git
+    branches: [master]
   - url: https://git.magnolia-cms.com/scm/documentation/product-docs.git
     branches: ['master','release/6.2']
   - url: https://git.magnolia-cms.com/scm/documentation/dummy-repo.git

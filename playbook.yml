@@ -40,7 +40,7 @@ content:
     branches: [documentation]
   - url: https://git.magnolia-cms.com/scm/enterprise/magnolia-sso.git
     start_path: docs
-    branches: ['master','release/2.0']
+    branches: ['master','release/3.1','release/2.0']
   - url: https://git.magnolia-cms.com/scm/modules/content-types.git
     start_path: docs
     branches: [master] 

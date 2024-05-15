@@ -249,9 +249,6 @@ content:
   - url: https://git.magnolia-cms.com/scm/services/magnolia-elasticsearch-provider.git
     start_path: docs
     branches: ['documentation']
-  - url: https://git.magnolia-cms.com/scm/incubator/mparticle-integration.git
-    start_path: docs
-    branches: ['documentation']
   - url: https://git.magnolia-cms.com/scm/incubator/customer-data-platform.git
     start_path: docs
     branches: ['documentation']

@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/product-docs/*"
-  to = "/product-docs/6.3/*"
+  from = "/product-docs/"
+  to = "/product-docs/6.3/"
   status = 301
   force = true

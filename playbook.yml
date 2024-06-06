@@ -49,7 +49,7 @@ content:
     branches: [master] 
   - url: https://git.magnolia-cms.com/scm/ADDON/live-copy.git
     start_path: docs
-    branches: [master]
+    branches: ['master','release/3.2']
   - url: https://git.magnolia-cms.com/scm/incubator/customer-journey.git
     start_path: docs
     branches: [documentation]
